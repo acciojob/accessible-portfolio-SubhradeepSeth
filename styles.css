@@ -1,2 +1,60 @@
 
 /* Your CSS Code here. */
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+.nav{
+	display:flex;
+	justify-content:flex-end;
+	background-color:aquamarine;
+	height:30px;
+	align-items:center
+}
+.a,.b,.c{
+	margin:20px;
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+.head2{
+	display:flex;
+	padding-top:20px;
+	align-items:center;
+	justify-content:center;
+	
+}
+.h>h1{
+	padding-left:20px;
+}
+.linkd{
+	margin-top:20px;
+	display:flex;
+	justify-content:center;
+	background-color:magenta
+	
+}
+.linkd>a{
+	text-decoration:none;
+}
+#skills,#projects{
+	display:flex;
+	justify-content:center;
+	margin-top:20px;
+	background-color:aquamarine
+}
+#skills p{
+	font-weight:bold;
+	font-size:20px;
+	padding-bottom:10px;
+}
+ul>li{
+	margin-left:20px;
+}
+#projects p{
+	font-weight:bold;
+	font-size:20px;
+	padding-bottom:10px;
+}
